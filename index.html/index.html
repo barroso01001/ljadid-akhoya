@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISMA AGENCE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: right;
+        }
+        header, footer {
+            background-color: #212529;
+            color: white;
+            padding: 10px 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            display: inline-block;
+        }
+        .nav a:hover {
+            background-color: #ff6f61;
+            border-radius: 5px;
+        }
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .services, .packs, .about, .contact {
+            padding: 20px;
+        }
+        .service-card, .pack-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            background: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service-card img, .pack-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .contact-btn {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div>
+            <h1>ISMA AGENCE</h1>
+            <nav class="nav">
+                <a href="#services">خدماتنا</a>
+                <a href="#packs">LES PACKS DISPONIBLE</a>
+                <a href="#about">من نحن</a>
+                <a href="#contact">اتصل بنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>أفضل الحلول لنجاح مشروعك</h2>
+        <p>نقدم خدمات متكاملة للإعلانات، تصميم المواقع، وتطوير التطبيقات.</p>
+        <button onclick="window.location.href='#packs'">NOS PACKS</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>خدماتنا</h2>
+        <div class="service-card">
+            <img src="ads.jpg" alt="الإعلانات">
+            <h3>إعلانات مخصصة</h3>
+            <p>تصميم حملات إعلانية مبتكرة وجذابة للوصول إلى جمهورك.</p>
+        </div>
+        <div class="service-card">
+            <img src="sit wep.jpg" alt="تصميم المواقع">
+            <h3>تصميم المواقع</h3>
+            <p>مواقع متجاوبة وعصرية تعبر عن هوية علامتك التجارية.</p>
+        </div>
+        <div class="service-card">
+            <img src="app-dev.jpg" alt="تطوير التطبيقات">
+            <h3>تطوير التطبيقات</h3>
+            <p>بناء تطبيقات مبتكرة تلبي احتياجاتك وتحقق رؤيتك.</p>
+        </div>
+    </section>
+
+    <!-- Packs Section -->
+    <section id="packs" class="packs">
+        <h2>TOUT LES PACKS</h2>
+        <div class="pack-card">
+            <h3>PACK BASIC</h3>
+            <img src="383ec845-e7e1-4a3b-af1b-5cc618a08c61.png" alt="PACK BASIC">
+            <p>تصميم موقع بسيط مع إعلانات أساسية.</p>
+            <p>950DH</p>
+        </div>
+        <div class="pack-card">
+            <h3>PACK STANDARD</h3>
+            <img src="4c0aac5a-a7d1-4c79-9790-a15ad2d1a7eb.png" alt="PACK STANDARD">
+            <p>تصميم موقع احترافي وإعلانات متقدمة.</p>
+            <p>1400Dh</p>
+        </div>
+        <div class="pack-card">
+            <h3>PACK PREMIUM</h3>
+            <img src="27e8b1f3-177a-4b71-a9ab-7a9135aa1c13.png" alt="PACK PREMIUM">
+            <p>خدمات شاملة مع دعم مخصص.</p>
+            <p>3500DH</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>من نحن</h2>
+        <p>تصاميم فريدة: نركز على إنشاء حلول تعكس هوية علامتك التجارية بطريقة مبتكرة.</p>
+        <p>جودة عالية: نعتمد أحدث التقنيات لضمان تقديم خدمات تفوق توقعاتك.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <a href="mailto:ismailtidmrini@gmail.com" class="contact-btn">📧 البريد الإلكتروني</a>
+        <a href="https://wa.me/212613382095" class="contact-btn" target="_blank">💬 واتساب</a>
+        <p>📧: ismailtidmrini@gmail.com</p>
+        <p>📱: +212 613-382095</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 إسما أجنس. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
